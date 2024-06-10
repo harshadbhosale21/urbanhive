@@ -1,0 +1,76 @@
+.dashboard {
+    padding: 85px 0 50px 0;
+}
+
+@media only screen And (max-width:1000px) {
+    .dashboard {
+        padding: 56px 0 50px 0
+    }
+}
+
+.sidebar {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+.sidebar a {
+    text-decoration: none;
+}
+
+@media only screen And (max-width: 700px) {
+    .sidebar {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+
+    .sidebar a {
+        float: left;
+    }
+
+    .content {
+        margin-left: 0 !important;
+    }
+}
+
+@media only screen And (max-width:300px) {
+    .sidebar a {
+        text-align: center;
+        float: none;
+    }
+
+    .content {
+        margin-left: 0 !important;
+    }
+}
+
+.content {
+    margin-left: 200px;
+    padding: 1px 6px;
+    height: 1000px;
+}
+
+.logout {
+    margin-top: auto;
+}
+
+.logout-btn {
+    width: 30px;
+    height: 50px;
+}
+
+.logout-btn:hover {
+    cursor: pointer;
+}
+
+@media only screen And (max-width:780px) {
+    .logout-btn {
+        width: 25px !important;
+        height: 35px !important;
+    }
+}

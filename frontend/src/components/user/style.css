@@ -1,0 +1,9 @@
+.form-input-div {
+    width: 100%;
+}
+
+@media only screen And (min-width:992px) {
+    .form-input-div {
+        width: 50%;
+    }
+}

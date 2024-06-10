@@ -1,0 +1,29 @@
+.buy-page {
+    padding: 85px 0 40px;
+}
+
+.buy-item-1 {
+    border-bottom: 1px solid black;
+}
+
+.buy-item>img {
+    width: 50%;
+}
+
+@media only screen And (min-width:992px) {
+    .buy-item>img {
+        width: 30%;
+    }
+}
+
+.count-btn {
+    width: 50%;
+}
+
+@media only screen And (min-width: 992px) {
+
+    .count-btn {
+        width: 18%;
+    }
+
+}
