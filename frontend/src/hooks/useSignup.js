@@ -17,13 +17,13 @@ const useSignup = () => {
         // console.log('Sending payload:', payload);
 
         try {
-            // const response = await axios.post('http://localhost:5000/user/signup', payload,
+            // const response = await axios.post('https://urbanhive-zuco.onrender.com/user/signup', payload,
             //     {
             //         headers: { "Content-Type": "application/json" }
             //     }
 
             // );
-            const res = await fetch('http://localhost:5000/user/signup', {
+            const res = await fetch('https://urbanhive-zuco.onrender.com/user/signup', {
                 method: 'POST',
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify({ fullName, email, phoneNumber, password, confirmPassword })

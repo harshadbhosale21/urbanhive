@@ -13,7 +13,7 @@ const ProductView = () => {
     useEffect(() => {
         const fetchProducts = async () => {
             try {
-                const response = await axios.get(`http://localhost:5000/store/items/${id}`);
+                const response = await axios.get(`https://urbanhive-zuco.onrender.com/store/items/${id}`);
                 setProduct(response.data.product)
                 console.log(response.data.product)
             }

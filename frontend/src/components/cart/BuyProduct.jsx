@@ -15,7 +15,7 @@ const BuyProduct = () => {
         const fetchProduct = async () => {
             try {
 
-                const res = await axios(`http://localhost:5000/store/items/${id}`)
+                const res = await axios(`https://urbanhive-zuco.onrender.com/store/items/${id}`)
                 setProduct(res.data.product)
                 console.log(res.data)
 

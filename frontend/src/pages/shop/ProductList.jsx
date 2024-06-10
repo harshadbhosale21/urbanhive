@@ -19,7 +19,7 @@ const ProductList = ({ category, priceRange }) => {
                     params.maxPrice = maxPrice;
                 }
 
-                const response = await axios('http://localhost:5000/store/items', { params });
+                const response = await axios('https://urbanhive-zuco.onrender.com/store/items', { params });
                 setProducts(response.data.data);
                 console.log(response.data)
             }

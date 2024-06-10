@@ -14,7 +14,7 @@ const Filtered = ({ productNames }) => {
                     params.names = productNames.join(',');
                 }
 
-                const response = await axios.get('http://localhost:5000/store/trendy', { params });
+                const response = await axios.get('https://urbanhive-zuco.onrender.com/store/trendy', { params });
                 setProducts(response.data.data);
                 console.log(response.data)
             }

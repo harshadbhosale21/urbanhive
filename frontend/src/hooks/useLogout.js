@@ -9,7 +9,7 @@ const useLogout = () => {
     const logout = async () => {
         try {
 
-            const res = await fetch('http://localhost:5000/user/logout', {
+            const res = await fetch('https://urbanhive-zuco.onrender.com/user/logout', {
                 method: "POST",
                 headers: { 'Content-Type': 'application/json' }
             });
